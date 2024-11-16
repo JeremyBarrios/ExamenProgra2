@@ -1,0 +1,36 @@
+.reservas-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .reservas-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .reservas-table th,
+  .reservas-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .reservas-table th {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .reservas-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
